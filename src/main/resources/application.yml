@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.87:3306/mydevms_uat?useSSL=false&serverTimezone=Asia/Shanghai
+    username: devmsuat
+    password: Device@2022
